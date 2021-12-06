@@ -1,6 +1,61 @@
 <fable>
-	<page>
-  
+	<page background="bg_florest.png">
+  	
+    <agent text="Você está na página 1" x="20" y="450" font-size="20" />
+    
+    <agent text="ir para página 2" color="darkblue" x="20" y="400" on-touch="_GOTO_PAGE:2"/>
+    <agent text="ir para página 3" color="darkblue" x="20" y="360" on-touch="_GOTO_PAGE:3" />
+    <agent text="ir para página 4" color="darkblue" x="20" y="320" on-touch="_GOTO_PAGE:4" />
+    <agent text="ir para página 5" color="darkblue" x="20" y="280" on-touch="_GOTO_PAGE:5" />
+    
+    <agent img="block.png" x="300" y="0" width="100" height="100" />
+    <agent img="Sign_2.png" x="330" y="100" width="50" height="50" on-touch="_NEXT_PAGE" />
     
   </page>
+  
+  <page background="bg.png">
+  	
+    <agent text="Você está na página 2" x="20" y="450" font-size="20" />
+    
+    <agent img="block.png" x="100" y="0" width="100" height="100" />
+    <agent img="Sign_back.png" x="130" y="100" width="50" height="50" on-touch="_PREV_PAGE" />
+    
+    <agent img="block.png" x="300" y="0" width="100" height="100" />
+    <agent img="Sign_2.png" x="330" y="100" width="50" height="50" on-touch="_NEXT_PAGE" />
+    
+  </page>
+  
+    <page background="noite_dark.png">
+  	
+    <agent text="Você está na página 3" x="20" y="450" font-size="20" color="white" />
+    
+    <agent img="block.png" x="100" y="0" width="100" height="100" />
+    <agent img="Sign_back.png" x="130" y="100" width="50" height="50" on-touch="_PREV_PAGE" />
+    
+    <agent img="block.png" x="300" y="0" width="100" height="100" />
+    <agent img="Sign_2.png" x="330" y="100" width="50" height="50" on-touch="_NEXT_PAGE" />
+    
+  </page>
+  
+    <page background="bg_neve.png">
+  	
+    <agent text="Você está na página 4" x="20" y="450" font-size="20" color="white" />
+    
+    <agent img="block.png" x="100" y="0" width="100" height="100" />
+    <agent img="Sign_back.png" x="130" y="100" width="50" height="50" on-touch="_PREV_PAGE" />
+    
+    <agent img="block.png" x="300" y="0" width="100" height="100" />
+    <agent img="Sign_2.png" x="330" y="100" width="50" height="50" on-touch="_NEXT_PAGE" />
+    
+  </page>
+  
+    <page background="bg_lab.png">
+  	
+    <agent text="Você está na página 5" x="20" y="450" font-size="20" color="white" />
+    
+    <agent img="block.png" x="100" y="0" width="100" height="100" />
+    <agent img="Sign_back.png" x="130" y="100" width="50" height="50" on-touch="_PREV_PAGE" />
+    
+  </page>
+  
 </fable>
